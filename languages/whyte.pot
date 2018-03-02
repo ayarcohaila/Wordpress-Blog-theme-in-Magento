@@ -1,0 +1,1798 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: korra.1.0.0\n"
+"POT-Creation-Date: 2017-05-27 22:37+0100\n"
+"PO-Revision-Date: 2017-05-27 22:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: korra.io\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../author_block.php:10 ../framework/tinymce_extend/tinymce_extend.php:129
+msgid "Author"
+msgstr ""
+
+#: ../comments.php:9 ../post_meta.php:14
+msgid "0 Comments"
+msgstr ""
+
+#: ../comments.php:9 ../functions.php:109 ../post_meta.php:14
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:9 ../post_meta.php:14
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:28 ../comments.php:30
+#: ../framework/functions/theme_functions.php:154
+msgid "Load More"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Post the comment"
+msgstr ""
+
+#: ../comments.php:72
+msgid "Leave A Comment"
+msgstr ""
+
+#: ../comments.php:74
+msgid "Your email address will not be published"
+msgstr ""
+
+#: ../comments.php:80
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:86
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:90
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:95
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../cover.php:76 ../framework/theme_customize/theme_customize.php:986
+msgid "Archives"
+msgstr ""
+
+#: ../cover.php:84
+msgid "Daily Archive"
+msgstr ""
+
+#: ../cover.php:92
+msgid "Monthly Archive"
+msgstr ""
+
+#: ../cover.php:100
+msgid "Yearly Archive"
+msgstr ""
+
+#: ../cover.php:108
+msgid "Format Archive"
+msgstr ""
+
+#: ../cover.php:125
+#: ../framework/functions/widgets/widget-featured_banners.php:165
+msgid "Category"
+msgstr ""
+
+#: ../cover.php:125
+#: ../framework/functions/widgets/widget-featured_banners.php:179
+msgid "Tag"
+msgstr ""
+
+#: ../cover.php:134
+msgid "Author Archive"
+msgstr ""
+
+#: ../cover.php:154
+msgid "Search Results"
+msgstr ""
+
+#: ../cover.php:161
+msgid "404"
+msgstr ""
+
+#: ../cover.php:162
+msgid "Page not found"
+msgstr ""
+
+#: ../functions.php:110
+#: ../framework/functions/widgets/widget-featured_banners.php:200
+msgid "Choose Image"
+msgstr ""
+
+#: ../functions.php:111 ../header.php:23
+msgid "Close"
+msgstr ""
+
+#: ../functions.php:258
+msgid "Full-Width Scale"
+msgstr ""
+
+#: ../functions.php:259
+msgid "Content-Width Scale"
+msgstr ""
+
+#: ../functions.php:260
+msgid "Horizontal Crop"
+msgstr ""
+
+#: ../functions.php:261
+msgid "Square Crop"
+msgstr ""
+
+#: ../functions.php:262
+msgid "Portrait Crop"
+msgstr ""
+
+#: ../header.php:58
+msgid "Menu & Search"
+msgstr ""
+
+#: ../infobar.php:25
+msgid "Read Next"
+msgstr ""
+
+#: ../loop_item-carousel.php:39 ../loop_item-featured.php:34
+#: ../loop_item-filmstrip.php:45 ../loop_item-list.php:140
+#: ../loop_item-list_unboxed.php:144 ../loop_item-masonry.php:140
+#: ../loop_item-masonry_image.php:146
+msgid " ago"
+msgstr ""
+
+#: ../notification_bar.php:9
+msgid "Subscribe"
+msgstr ""
+
+#: ../post_meta.php:3
+msgid "Published"
+msgstr ""
+
+#: ../post_meta.php:12
+msgid "Comments"
+msgstr ""
+
+#: ../post_meta.php:18
+msgid "By"
+msgstr ""
+
+#: ../post_meta.php:24
+#: ../framework/theme_customize/customize_controls/node_dropdown.php:36
+msgid "Tags"
+msgstr ""
+
+#: ../search.php:22
+msgid "Unfortunately, no results have been found."
+msgstr ""
+
+#: ../searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: ../share_block.php:27
+msgid "Share on Email"
+msgstr ""
+
+#: ../share_block.php:33
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../share_block.php:39
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../share_block.php:45
+msgid "Share on Pinterest"
+msgstr ""
+
+#: ../share_block.php:51
+msgid "Share on Google+"
+msgstr ""
+
+#: ../share_block.php:56
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: ../share_block.php:61
+msgid "Share on Tumblr"
+msgstr ""
+
+#: ../framework/custom_fields/custom_fields_type_background.php:31
+#: ../framework/custom_fields/custom_fields_type_background.php:63
+#: ../framework/custom_fields/custom_fields_type_background.php:98
+msgid "Background Control"
+msgstr ""
+
+#: ../framework/custom_fields/custom_fields_type_background.php:64
+#: ../framework/custom_fields/custom_fields_type_background.php:99
+msgid "Bg Control"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../framework/functions/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../framework/functions/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:393
+#: ../framework/functions/class-tgm-plugin-activation.php:912
+#: ../framework/functions/class-tgm-plugin-activation.php:2618
+#: ../framework/functions/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:394
+#: ../framework/functions/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/functions/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/functions/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../framework/functions/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:1019
+#: ../framework/functions/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#. translators: %s: version number
+#: ../framework/functions/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/functions/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/functions/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../framework/functions/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../framework/functions/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../framework/functions/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/functions/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/functions/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:3594
+#: ../framework/functions/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:3594
+#: ../framework/functions/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../framework/functions/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../framework/functions/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/functions/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../framework/functions/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/functions/custom_comments.php:45
+msgid "ago"
+msgstr ""
+
+#: ../framework/functions/custom_comments.php:50
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/functions/custom_comments.php:55
+msgid "Edit Comment"
+msgstr ""
+
+#: ../framework/functions/custom_comments.php:60
+msgid "Reply"
+msgstr ""
+
+#: ../framework/functions/custom_comments.php:61
+msgid "Log in to leave a comment"
+msgstr ""
+
+#: ../framework/functions/gallery.php:13
+msgid "Gallery Style"
+msgstr ""
+
+#: ../framework/functions/gallery.php:22
+msgid "Max height for filmstrip,slider or fluid row."
+msgstr ""
+
+#: ../framework/functions/gallery.php:26
+msgid ""
+"Animation frequency for filmstrip/slider in <code>milliseconds</code>. Use 0 "
+"to disable automatic animation."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: ../framework/functions/megamenu.php:152
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: ../framework/functions/megamenu.php:156
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:169
+msgid "sub item"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:184
+msgid "Move up"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:197
+msgid "Move down"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:201
+msgid "Edit menu item"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:201
+msgid "Edit"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:210
+msgid "URL"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:217
+msgid "Navigation Label"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:223
+msgid "Title Attribute"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:230
+msgid "Open link in a new tab"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:235
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:241
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:247
+msgid "Description"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:249
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../framework/functions/megamenu.php:261
+msgid "Display as MegaMenu"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:267
+msgid "Hide featured images from MegaMenu"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:281
+msgid "Move"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:282
+msgid "Up one"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:283
+msgid "Down one"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:286
+msgid "To the top"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:293
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:306
+msgid "Remove"
+msgstr ""
+
+#: ../framework/functions/megamenu.php:307
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/functions/navigation_menus.php:17
+msgid "Main Menu"
+msgstr ""
+
+#: ../framework/functions/navigation_menus.php:18
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:10
+msgid "Above Page Content Area"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:11
+msgid ""
+"This area is located below header, before the main page content starts. It "
+"is created mainly for Featured Banners and Ads, though it can be used for "
+"any other widget."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:20
+msgid "Below Page Content Area"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:21
+msgid ""
+"This area is located after the main page content ends. It is created as an "
+"Ad container, though it can be used for any other widget."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:30
+msgid "Ad Area - Square"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:31
+msgid ""
+"Ad Area used in appropriate blog layouts (smaller, square-like) and in "
+"Sideblock. Blog ad can be enabled in the appropriate blog settings - Theme "
+"Customizer for homepage/archives, Blog settings in dedicated page blog, or "
+"Blog shortcode. Sideblock ad can be added via content editor. Use "
+"appropriate ad dimensions here (300x250, 300x600)."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:40
+msgid "Ad Area - Wide"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:41
+msgid ""
+"Ad Area used in appropriate blog layouts (wide, full-width list) and in Full "
+"Width section. Blog ad can be enabled in the appropriate blog settings - "
+"Theme Customizer for homepage/archives, Blog settings in dedicated page "
+"blog, or Blog shortcode. Full Width ad can be added via content editor. Use "
+"appropriate ad dimensions here (728x90)."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:50
+msgid "404 Area"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:51
+msgid "404 Area is used as main content on 404 Error Page."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:60
+msgid "Search Results Area"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:61
+msgid "This area is used as main content if search provides 0 results."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:70
+msgid "Footer Area Top"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:71
+msgid ""
+"Full width widget area before the columned widget area in footer. Useful for "
+"Navigation menu, Social menu or Ad."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:80
+msgid "Footer Area Left"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:81
+msgid "Widget area in the footer - Column 1/2."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:90
+msgid "Footer Area Right"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:91
+msgid "Widget area in the footer - Column 2/2."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:100
+msgid "Footer Area Bottom"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:101
+msgid ""
+"Full width widget area after the columned widget area in footer. Useful for "
+"Navigation menu, Social menu or Ad."
+msgstr ""
+
+#: ../framework/functions/sidebars.php:110
+msgid "Footer Instagram Area"
+msgstr ""
+
+#: ../framework/functions/sidebars.php:111
+msgid ""
+"Widget area in footer used specifically for Instagram widget. You need to "
+"install the recommended Instagram plugin, and assign it's widget in this "
+"area."
+msgstr ""
+
+#: ../framework/functions/theme_functions.php:129
+msgid "Previous"
+msgstr ""
+
+#: ../framework/functions/theme_functions.php:130
+msgid "Next"
+msgstr ""
+
+#: ../framework/functions/theme_functions.php:156
+msgid "No More Posts"
+msgstr ""
+
+#: ../framework/functions/theme_functions.php:485
+msgid "ID"
+msgstr ""
+
+#: ../framework/functions/theme_functions.php:721
+msgid "Next page"
+msgstr ""
+
+#: ../framework/functions/theme_functions.php:722
+msgid "Previous page"
+msgstr ""
+
+#: ../framework/functions/theme_functions.php:742
+msgid "Read More"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:23
+msgid "Korra: About"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:24
+msgid "Information about the blog."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:63
+msgid "author image"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:98
+#: ../framework/functions/widgets/widget-blog.php:93
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:73
+#: ../framework/functions/widgets/widget-social.php:77
+msgid "Title:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:99
+#: ../framework/functions/widgets/widget-blog.php:94
+#: ../framework/functions/widgets/widget-blog.php:206
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:74
+#: ../framework/functions/widgets/widget-social.php:78
+msgid "Widget Title"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:105
+msgid "Image:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:107
+msgid "Add Image"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:109
+#: ../framework/functions/widgets/widget-about.php:135
+#: ../framework/functions/widgets/widget-featured_banners.php:202
+#: ../framework/functions/widgets/widget-featured_banners.php:212
+#: ../framework/functions/widgets/widget-social.php:112
+#: ../framework/functions/widgets/widget-social.php:123
+#: ../framework/functions/widgets/widget-social.php:136
+msgid "http://"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:117
+msgid "Social Shortcode:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:118
+msgid "[korra_social]"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:119
+msgid ""
+"<small>Enter the social shortcode here.<br><strong>Korra: Social</strong> "
+"widget provides generator for the social shortcode.</small>"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:125
+msgid "Description:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:126
+msgid "Description Text"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:133
+msgid "Custom Button:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-about.php:134
+msgid "Button Text"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:23
+msgid "Korra: Blog Widget"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:24
+msgid "Posts based on the custom filter."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:88
+msgid ""
+"Customize the settings for your widget-blog. Adding Secondary Title will "
+"enable the \"double-blog\" feature with switch. Secondary Blog will have the "
+"same style and count as Primary Blog."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:106
+msgid "Classic List"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:125
+#: ../framework/functions/widgets/widget-blog_carousel.php:68
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:80
+msgid "Number of posts:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:134
+#: ../framework/functions/widgets/widget-blog_carousel.php:77
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:89
+msgid "Category:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:136
+#: ../framework/functions/widgets/widget-blog.php:215
+#: ../framework/functions/widgets/widget-blog_carousel.php:79
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:91
+msgid "All categories"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:149
+#: ../framework/functions/widgets/widget-blog_carousel.php:92
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:104
+msgid "Tag:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:151
+#: ../framework/functions/widgets/widget-blog.php:229
+#: ../framework/functions/widgets/widget-blog_carousel.php:94
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:106
+msgid "All tags"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:162
+#: ../framework/functions/widgets/widget-blog_carousel.php:105
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:117
+msgid "Date"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:163
+#: ../framework/functions/widgets/widget-blog_carousel.php:106
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:118
+msgid "Date modified"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:164
+#: ../framework/functions/widgets/widget-blog_carousel.php:107
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:119
+msgid "Comment count"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:165
+#: ../framework/functions/widgets/widget-blog_carousel.php:108
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:120
+#: ../framework/functions/widgets/widget-featured_banners.php:211
+#: ../framework/functions/widgets/widget-social.php:111
+#: ../framework/functions/widgets/widget-social.php:122
+#: ../framework/functions/widgets/widget-social.php:135
+msgid "Title"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:166
+#: ../framework/functions/widgets/widget-blog_carousel.php:109
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:121
+msgid "Random"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:170
+#: ../framework/functions/widgets/widget-blog_carousel.php:113
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:125
+msgid "Order by:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:182
+#: ../framework/functions/widgets/widget-blog_carousel.php:125
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:137
+msgid "Descending"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:183
+#: ../framework/functions/widgets/widget-blog_carousel.php:126
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:138
+msgid "Ascending"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:187
+#: ../framework/functions/widgets/widget-blog_carousel.php:130
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:142
+msgid "Order:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:200
+msgid "Secondary Blog"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:200
+msgid "It's optional. Leave title empty to disable it."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:205
+msgid "Title 2:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:213
+msgid "Category 2:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:227
+msgid "Tag 2:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:241
+msgid "Order by 2:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog.php:254
+msgid "Order 2:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog_carousel.php:23
+msgid "Korra: Blog Carousel"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog_carousel.php:24
+msgid "Fullwidth Blog Carousel to be used in the Above Page Content Area"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog_carousel.php:63
+msgid ""
+"This Widget is designed to be placed in the Above Page Content Area. It "
+"takes full screen width."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog_carousel.php:142
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:154
+msgid "Animation interval:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog_carousel.php:143
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:155
+msgid "Defaults to 0 (off). Use number in ms (3000 = 3s)."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:23
+msgid "Korra: Blog Filmstrip"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:24
+msgid "Fullwidth Blog Filmstrip to be used in the Below Page Content Area"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-blog_filmstrip.php:68
+msgid ""
+"This Widget is designed to be placed in the Below Page Content Area. It "
+"takes full screen width and will not display correctly in smaller footer "
+"widget areas."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:23
+msgid "Korra: Featured Banners"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:24
+msgid "Feature Category, Tag, Page or Post as banners."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:145
+msgid ""
+"Display up to 4 featured banners that can be linked to either internal links "
+"(category, tag, page, post), or custom external link. Advised to use in "
+"larger widget areas, like Area Before Page Content."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:149
+msgid "Featured Banner "
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:160
+#: ../framework/theme_customize/customize_controls/node_dropdown.php:11
+msgid "-- Select --"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:163
+msgid "Custom Banner"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:172
+msgid "Page"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:186
+msgid "Post"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:204
+msgid "Optimized for the Portrait-Crop image size."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-featured_banners.php:219
+msgid "Open link in new tab (_blank)"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-social.php:23
+msgid "Korra: Social"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-social.php:24
+msgid "Social Links with icons and/or labels."
+msgstr ""
+
+#: ../framework/functions/widgets/widget-social.php:84
+msgid "Social Media Links:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-social.php:129
+msgid "Add new social media"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-social.php:140
+msgid "Generated shortcode:"
+msgstr ""
+
+#: ../framework/functions/widgets/widget-social.php:141
+msgid "Use this shortcode for post content or author social links field:"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:15
+msgid "Customize"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:78
+msgid "General"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:95
+msgid "Main Logo"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:116
+msgid "Load Pages with Ajax"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:136
+msgid "Post Comments with Ajax"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:156
+msgid "Use Facebook Open Graph meta tags"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:177
+msgid "Footer Logo"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:196
+msgid "Copyright"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:214
+msgid "Layout"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:229
+msgid "Enable sticky header menu - it appears when you start scrolling top."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:249
+msgid "Sideblock width on desktop"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:268
+msgid "Cover height (featured image on posts, pages and taxonomy archives)"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:287
+msgid "Display Cover in Content width (1300px) instead of fullscreen width."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:307
+msgid "Use Whyte's X visual element throughout the site."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:325
+msgid "Style"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:335
+msgid "Colors"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:338
+msgid ""
+"In order to get advanced color settings (white, greys, black), you need to "
+"install the WP-LESS plugin. If Live Preview doesn't react to color changes, "
+"save new settings and reload to see updates."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:352
+msgid "Accent"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:353
+msgid "Used as primary accent color for links and accented details."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:374
+msgid "Gradient Start"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:375
+msgid ""
+"Starting color for default gradient that will be used throughout the website."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:393
+msgid "Gradient End"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:394
+msgid ""
+"Ending color for default gradient that will be used throughout the website."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:417
+msgid "White"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:418
+msgid "Everything white: button text, elements over the images."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:437
+msgid "Pale Grey"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:438
+msgid ""
+"Used as background on form elements, code blocks, highlighted text, "
+"navigation dropdowns, dropcaps."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:457
+msgid "Light Grey"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:458
+msgid ""
+"Used whenever a slightly lighter version of grey is needed. Borders, meta-"
+"info, widget titles, and textual labels."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:477
+msgid "Grey Label"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:478
+msgid "Used for post-meta labels."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:497
+msgid "Grey"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:498
+msgid "Main body-font color. Used mostly for typography."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:517
+msgid "Black"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:518
+msgid ""
+"Everything black: titles color, dark-black elements, secondary-links, "
+"notification background, underlaying borders and hovers."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:535
+msgid "Backgrounds"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:552
+msgid "Body"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:571
+msgid "Footer"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:590
+msgid "Footer is dark"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:605
+msgid "Typography"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:608
+msgid ""
+"Choose Font Family, style, font size / line height, text tranform and kerning"
+"(letter-spacing)."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:624
+msgid "Justify post excerpts and quotes."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:646
+msgid "Main Body Font"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:648
+msgid "Font used for the main content and paragraphs."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:666
+msgid "Navigation"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:667
+msgid "Font used for header navigation."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:686
+msgid "Label"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:687
+msgid "Font used for post-meta and tag-like labels."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:706
+msgid "H1"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:725
+msgid "H2"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:744
+msgid "H3"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:745
+msgid "Also used for widget titles."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:764
+msgid "H4"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:783
+msgid "H5"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:802
+msgid "H6"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:803
+msgid "Also used for image captions."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:822
+#: ../framework/tinymce_extend/tinymce_extend.php:103
+msgid "Description Heading"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:823
+msgid ""
+"Used for widget titles. In slightly smaller size used for Description "
+"Heading format, Highlighted paragraphs. In slightly larger size used for "
+"section titles like \"Related Posts\" and \"Comments\"."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:842
+msgid "Blockquote"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:861
+msgid "Character Sets"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:862
+msgid ""
+"Comma separated list of font character sets to be included in the font-"
+"embedding. <strong>Example: latin,latin-ext,greek,vietnamese</strong>"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:878
+msgid "Blog Layouts & Posts"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:883
+msgid "Homepage"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:884
+msgid "Settings for Latest Posts page."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:904
+#: ../framework/theme_customize/theme_customize.php:1003
+msgid "Display Style"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:909
+#: ../framework/theme_customize/theme_customize.php:1008
+msgid "List"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:910
+#: ../framework/theme_customize/theme_customize.php:1009
+msgid "List Unboxed"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:911
+#: ../framework/theme_customize/theme_customize.php:1010
+msgid "Masonry Grid"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:912
+#: ../framework/theme_customize/theme_customize.php:1011
+msgid "Image Masonry Grid"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:913
+#: ../framework/theme_customize/theme_customize.php:1012
+msgid "Gallery Grid"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:914
+#: ../framework/theme_customize/theme_customize.php:1013
+msgid "Archive Gallery"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:932
+#: ../framework/theme_customize/theme_customize.php:1031
+msgid "Pagination Type"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:937
+#: ../framework/theme_customize/theme_customize.php:1036
+msgid "Classic Pagination"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:938
+#: ../framework/theme_customize/theme_customize.php:1037
+msgid "Load More Button"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:939
+#: ../framework/theme_customize/theme_customize.php:1038
+msgid "No Pagination"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:957
+#: ../framework/theme_customize/theme_customize.php:1056
+msgid "Ads"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:958
+#: ../framework/theme_customize/theme_customize.php:1057
+msgid ""
+"Choose after how many posts the 'Ad Area in Blog' Widget is displayed "
+"(repeating). Configure this widget in Appearance -> Widgets."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:963
+#: ../framework/theme_customize/theme_customize.php:1062
+msgid "0 - Off"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:964
+#: ../framework/theme_customize/theme_customize.php:1063
+msgid "1"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:965
+#: ../framework/theme_customize/theme_customize.php:1064
+msgid "2"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:966
+#: ../framework/theme_customize/theme_customize.php:1065
+msgid "3"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:967
+#: ../framework/theme_customize/theme_customize.php:1066
+msgid "4"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:968
+#: ../framework/theme_customize/theme_customize.php:1067
+msgid "5"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:969
+#: ../framework/theme_customize/theme_customize.php:1068
+msgid "6"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:970
+#: ../framework/theme_customize/theme_customize.php:1069
+msgid "7"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:971
+#: ../framework/theme_customize/theme_customize.php:1070
+msgid "8"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:987
+msgid ""
+"Settings for Tag, Category, Date and Author pages, and for search results."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1083
+msgid "Single Posts"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1099
+msgid "Show Infobar"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1119
+msgid "Infobar's 'Next Post' will be from same category"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1139
+msgid "Show Share in Meta Sideblock"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1159
+msgid "Show Author Block"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1179
+msgid "Show Related Posts"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1199
+msgid "Related posts section title"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1214
+msgid "Featured Posts"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1215
+msgid ""
+"Setup featured posts. It will automatically be displayed on homepage. It can "
+"be displayed on Static Page through it's settings on Edit Page screen. By "
+"not selecting tag, latest posts will be picked. Disable the featured slider "
+"by setting Count to 0."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1231
+msgid "Tag to use"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1250
+msgid "Count (0 = off; -1 = unlimited)"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1270
+msgid "Exclude Featured posts from blog"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1288
+msgid "Sharing Settings"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1304
+msgid "Show Email"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1325
+msgid "Show Facebook"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1345
+msgid "Show Twitter"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1365
+msgid "Show Pinterest"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1385
+msgid "Show Google+"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1405
+msgid "Show Linkedin"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1425
+msgid "Show Tumblr"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1443
+msgid "Notification Bar"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1458
+msgid "Use Notification Bar"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1479
+msgid "Use Jetpack Subscription form"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1480
+msgid ""
+"If Jetpack is installed and Subscription module enabled, by checking this "
+"field you will display the subscription form."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1501
+msgid "Notification Bar can be dismissed"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1502
+msgid ""
+"Notification will have small 'X' button, and visitor will be able to dismiss "
+"that notification (only for himself). Once you change your notification, it "
+"will become visible again."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1523
+msgid "Notification Text"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1543
+msgid "Notification Button Text"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1544
+msgid "Empty Button Text will hide the button."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1564
+msgid "Notification Button Link"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1565
+msgid "Empty Button Link will hide the button."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1583
+msgid "Advanced"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1598
+msgid "Display pingbacks"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1599
+msgid ""
+"Check this field if you wish to display pingbacks and trackbacks along with "
+"the comments in the comments area."
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1619
+msgid "Google API"
+msgstr ""
+
+#: ../framework/theme_customize/theme_customize.php:1620
+msgid ""
+"If you have your own Google API key you wish to use for Google features "
+"brought in the theme, enter it here."
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/category_dropdown.php:11
+msgid "--Select Category--"
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/font_control.php:96
+msgid "No transform"
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/font_control.php:97
+msgid "Capitalize"
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/font_control.php:98
+msgid "Uppercase"
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/font_control.php:99
+msgid "Lowercase"
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/node_dropdown.php:15
+msgid "Categories"
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/node_dropdown.php:22
+msgid "Pages"
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/node_dropdown.php:29
+msgid "Posts"
+msgstr ""
+
+#: ../framework/theme_customize/customize_controls/tag_dropdown.php:11
+msgid "--Select Tag--"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:81
+msgid "Wrap in Sideblock"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:89
+msgid "Dropcap"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:96
+msgid "Gradient Heading"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:110
+msgid "Highlighted paragraph"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:117
+msgid "Highlighted text"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:124
+msgid "Cite (for Blockquote)"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:134
+msgid "Label Value"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:141
+msgid "Korra Buttons"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:144
+msgid "Underlined link"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:149
+msgid "Gradient Button"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:154
+msgid "Black Button"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:159
+msgid "White Button"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:164
+msgid "Small Gradient Button"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:169
+msgid "Small Black Button"
+msgstr ""
+
+#: ../framework/tinymce_extend/tinymce_extend.php:174
+msgid "Small White Button"
+msgstr ""

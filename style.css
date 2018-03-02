@@ -1,0 +1,38 @@
+/*
+	Theme Name: Whyte Child
+	Theme URI: http://demo.korra.io/whyte/
+	Template: whyte
+	Version: 1.0.0
+	Description: Child Theme for Whyte
+	Author: korra.io
+	Author URI: http://korra.io/
+	Text Domain: whyte
+*/
+
+
+
+/*------------------------------------------------------------
+ * Theme customization starts here
+ *------------------------------------------------------------*/
+@font-face {
+    font-family: "Brown-Regular";
+    src:url("fonts/lineto-brown-regular.eot");
+    src:url("fonts/lineto-brown-regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/lineto-brown-regular.woff") format("woff"),
+    url("fonts/lineto-brown-regular.ttf") format("truetype"),
+    url("fonts/lineto-brown-regular.svg#lineto-brown-regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Brown-Bold";
+    src:url("fonts/lineto-brown-bold.eot");
+    src:url("fonts/lineto-brown-bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/lineto-brown-bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Brown-Regular',Arial,sans-serif;
+}
