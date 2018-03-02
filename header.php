@@ -37,41 +37,62 @@ $header_classes = '';
 <header id="header" class="header <?php echo esc_attr($header_classes); ?>">
 
 
+
 	<div class="header__inwrap max-width-wrapper">
 
-		<div class="header__menu">
-			<div class="korra-nav--classic">
-				<?php korra_nav_menu_header(); ?>
+		<div class="container">
+			<div class="row">
+					<div class="col-md">
+
+						<div class="header__menu">
+							<div class="korra-nav--classic">
+								<?php korra_nav_menu_header(); ?>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md">
+
+						<div class="korra-logo">
+							<a href="<?php echo  esc_url( home_url('/') ) ; ?>">
+								<?php if( !$theme_settings['logo'] ): ?>
+									<span class="sitename h2"><?php echo bloginfo('name'); ?></span>
+								<?php else: ?>
+									<img src="<?php echo esc_url($theme_settings['logo']); ?> " alt="<?php echo get_bloginfo('name'); ?>" class="main"/>
+								<?php endif; ?>
+							</a>
+						</div>
+
+					</div>
+					<div class="col-md">
+
+						<div class="header__location">
+
+							<a href="#" class="korra-nav--mobile-btn js-korra-nav-toggle"><?php esc_html_e('Menu & Search', 'whyte'); ?><i class="has-dropdown-icon"></i></a>
+
+							<?php if( function_exists('bcn_display') ){
+								echo '<div class="breadcrumbs label--small">';
+								echo '<div class="breadcrumbs_inwrap" typeof="BreadcrumbList" vocab="http://schema.org/">';
+									bcn_display();
+								echo '</div>';
+								echo '</div>';
+							}?>
+
+							<div class="search__toggle"><i class="korra-icon-magnifier"></i></div>
+							<?php get_template_part('searchform'); ?>
+
+						</div>
+
+					</div>
 			</div>
 		</div>
 
-		<div class="header__location">
 
-			<a href="#" class="korra-nav--mobile-btn js-korra-nav-toggle"><?php esc_html_e('Menu & Search', 'whyte'); ?><i class="has-dropdown-icon"></i></a>
 
-			<?php if( function_exists('bcn_display') ){
-				echo '<div class="breadcrumbs label--small">';
-				echo '<div class="breadcrumbs_inwrap" typeof="BreadcrumbList" vocab="http://schema.org/">';
-					bcn_display();
-				echo '</div>';
-				echo '</div>';
-			}?>
 
-			<div class="search__toggle"><i class="korra-icon-magnifier"></i></div>
-			<?php get_template_part('searchform'); ?>
 
-		</div>
 
-	</div>
 
-	<div class="korra-logo">
-		<a href="<?php echo  esc_url( home_url('/') ) ; ?>">
-			<?php if( !$theme_settings['logo'] ): ?>
-				<span class="sitename h2"><?php echo bloginfo('name'); ?></span>
-			<?php else: ?>
-				<img src="<?php echo esc_url($theme_settings['logo']); ?> " alt="<?php echo get_bloginfo('name'); ?>" class="main"/>
-			<?php endif; ?>
-		</a>
 	</div>
 
 </header>
