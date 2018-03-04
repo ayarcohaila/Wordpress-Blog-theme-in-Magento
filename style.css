@@ -37,6 +37,102 @@ body {
     font-family: 'Brown-Regular',Arial,sans-serif;
 }
 
-.korra-logo {
-  
+.header .korra-logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.korra-nav--classic > .menu > ul > li > a {
+  padding: auto 0px;
+}
+
+.header__menu {
+  margin-top: 20px;
+  margin-bottom: auto;
+  text-align: left;
+  margin-left: 0px;
+}
+.header__location {
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.footer {
+  background: #F3E6E3 !important;
+}
+
+.dark-mode table tbody {
+  color: black;
+  text-align: left;
+}
+
+/* .post__content .loop-container--masonry article {
+  width: 33.3%;
+  margin-top: auto;
+} */
+.post__content .loop-container--masonry article:nth-child(3) {
+  margin-top: 0px;
+}
+
+@media only screen and (min-width: 1171px) and (min-width: 600px) {
+  .post__content .loop-container--masonry article {
+      width: 33.3%;
+      height: 552px;
+      margin-top: 0px;
+      margin-bottom: 42px;
+
+  }
+  .loop-container--style-masonry_image article .post__inwrap {
+    padding-left: 30px;
+  }
+  /* .loop-container--style-masonry_image article .post__inwrap .post__excerpt--wrapper .excerpt {
+    height: 80px;
+  } */
+
+  .loop-container--style-masonry article .post__media img, .loop-container--style-masonry_image article .post__media img {
+    height: 332px;
+  }
+
+  /* styles for '...' */
+  .loop-container--style-masonry_image article .post__inwrap .post__excerpt--wrapper .excerpt {
+    /* hide text if it more than N lines  */
+    overflow: hidden;
+    /* for set '...' in absolute position */
+    position: relative;
+    /* use this value to count block height */
+    line-height: 1.2em;
+    /* max-height = line-height (1.2) * lines max number (3) */
+    max-height: 4.8em;
+    /* fix problem when last visible word doesn't adjoin right side  */
+    text-align: justify;
+    /* place for '...' */
+    margin-right: -1em;
+    padding-right: 1em;
+  }
+  /* create the ... */
+  .loop-container--style-masonry_image article .post__inwrap .post__excerpt--wrapper .excerpt:before {
+    /* points in the end */
+    content: '...';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of block */
+    right: 0;
+    bottom: 0;
+  }
+  /* hide ... if we have text, which is less than or equal to max lines */
+  .loop-container--style-masonry_image article .post__inwrap .post__excerpt--wrapper .excerpt:after {
+    /* points in the end */
+    content: '';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of text */
+    right: 0;
+    /* set width and height */
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    /* bg color = bg color under block */
+    background: white;
+  }
+
 }
