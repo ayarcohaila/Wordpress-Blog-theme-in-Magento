@@ -42,7 +42,7 @@ $header_classes = '';
 
 		<div class="container">
 			<div class="row">
-					<div class="col-md">
+					<div class="col-md-5">
 
 						<div class="header__menu">
 							<div class="korra-nav--classic">
@@ -51,7 +51,7 @@ $header_classes = '';
 						</div>
 
 					</div>
-					<div class="col-md">
+					<div class="col-md-2">
 
 						<div class="korra-logo">
 							<a href="<?php echo  esc_url( home_url('/') ) ; ?>">
@@ -64,7 +64,7 @@ $header_classes = '';
 						</div>
 
 					</div>
-					<div class="col-md">
+					<div class="col-md-5">
 
 						<div class="header__location">
 
@@ -86,12 +86,6 @@ $header_classes = '';
 					</div>
 			</div>
 		</div>
-
-
-
-
-
-
 
 	</div>
 

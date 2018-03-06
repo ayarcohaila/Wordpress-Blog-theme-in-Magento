@@ -7,7 +7,7 @@
  * @since Twenty Sixteen 1.0
  */
 ?>
-<div class="korra-sideblock processed">
+
 <?php if ( is_active_sidebar( 'sidebar-1' )  ) : ?>
 
 	<aside id="secondary" class="sidebar widget-area" role="complementary">
@@ -17,4 +17,3 @@
 	</aside><!-- .sidebar .widget-area -->
 
 <?php endif; ?>
-</div>
