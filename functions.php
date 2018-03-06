@@ -12,6 +12,8 @@ function korra_child_load_styles() {
 	wp_enqueue_style( 'korra_child_bootstrap_style', get_theme_file_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_script('bootstrap_js', get_theme_file_uri() . '/js/bootstrap.min.js');
 
+	//load js for sticky category menu
+	// wp_enqueue_script('sticky_category_control', get_theme_file_uri() . '/js/sticky_category.js');
 }
 
 /*------------------------------------------------------------

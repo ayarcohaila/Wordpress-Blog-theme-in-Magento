@@ -27,55 +27,59 @@
 
 <div class="main-content">
 
-<div class="sidebar">
-<?php get_sidebar(); ?>
-</div>
+	<div class="sidebar">
+	<?php get_sidebar(); ?>
+	</div>
 
-<!-- article -->
-<div id="post-<?php the_ID(); ?>" <?php post_class( $post_classes ); ?>>
-  
-	<div class="post__content"><?php
-		if(
-			get_post_meta( get_the_ID(), 'show_main_page_title', true ) !== '0' &&
-			get_post_meta( get_the_ID(), 'show_main_page_title', true ) !== 'false' &&
-			get_post_meta( get_the_ID(), 'rich_cover', true ) !== '1'
-		){
-			echo '<h1 class="post__title">';
-			the_title();
-			echo '</h1>';
-		}
-		if( get_the_content() ){
-			echo '<div class="editor-content">';
-				// If Gallery shown as cover, exclude it from content
-				if( get_post_meta( get_the_ID(), 'cover_media', true ) == 'gallery' ){
-					$output_content = korra_match_gallery( get_the_content(), true );
-					echo apply_filters( 'the_content', $output_content );
-				}else{
-					the_content();
+	<div class="content-area">
+		<!-- article -->
+		<div id="post-<?php the_ID(); ?>" <?php post_class( $post_classes ); ?>>
+
+			<div class="post__content"><?php
+				if(
+					get_post_meta( get_the_ID(), 'show_main_page_title', true ) !== '0' &&
+					get_post_meta( get_the_ID(), 'show_main_page_title', true ) !== 'false' &&
+					get_post_meta( get_the_ID(), 'rich_cover', true ) !== '1'
+				){
+					echo '<h1 class="post__title">';
+					the_title();
+					echo '</h1>';
 				}
-			echo '</div>';
-		}
-	?></div>
+				if( get_the_content() ){
+					echo '<div class="editor-content">';
+						// If Gallery shown as cover, exclude it from content
+						if( get_post_meta( get_the_ID(), 'cover_media', true ) == 'gallery' ){
+							$output_content = korra_match_gallery( get_the_content(), true );
+							echo apply_filters( 'the_content', $output_content );
+						}else{
+							the_content();
+						}
+					echo '</div>';
+				}
+			?></div>
 
-	<?php korra_link_split_pages(); ?>
+			<?php korra_link_split_pages(); ?>
 
-	<?php
-	if( get_post_meta( get_the_ID(), 'blog_use', true ) ){
-		get_template_part('page_blog');
-	}
-	?>
+			<?php
+			if( get_post_meta( get_the_ID(), 'blog_use', true ) ){
+				get_template_part('page_blog');
+			}
+			?>
 
-	<?php if( $use_comments ){
-		echo '<div class="korra-fullwidth">';
-		echo '<div class="grey-mode">';
-		echo '<div class="post__comments js-masonry-comments">';
-		comments_template();
-		echo '</div>';
-		echo '</div>';
-		echo '</div>';
-	}?>
+			<?php if( $use_comments ){
+				echo '<div class="korra-fullwidth">';
+				echo '<div class="grey-mode">';
+				echo '<div class="post__comments js-masonry-comments">';
+				comments_template();
+				echo '</div>';
+				echo '</div>';
+				echo '</div>';
+			}?>
 
+		</div>
+	</div>
 </div>
+
 
 
 
