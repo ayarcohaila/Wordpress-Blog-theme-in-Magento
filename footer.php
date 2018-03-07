@@ -99,5 +99,16 @@ if( $theme_settings['logo_footer'] || $theme_settings['copyright'] ){
 
 <?php wp_footer(); ?>
 
+<!-- <script>
+	$('.link--underline').addClass('load-more--wp-loop');
+	$('.link--underline').addClass('js-load-more--wp-loop');
+	$('.link--underline').attr('data-max','2');
+	$('.link--underline').attr('data-current','1');
+
+	$('.loop-container--style-masonry_image').addClass('loop-container--wp');
+	$('.korra-blog__more').addClass('pagination');
+	$('.korra-blog__more').addClass('pagination__load-more');
+</script> -->
+
 </body>
 </html>
