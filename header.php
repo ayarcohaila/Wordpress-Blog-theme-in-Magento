@@ -12,7 +12,7 @@
 
 
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> style="font-family: Brown-Regular">
 <div class="korra-loader korra-loader--body"></div>
 
 <?php get_template_part('notification_bar'); ?>
