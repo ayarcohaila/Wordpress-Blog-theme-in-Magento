@@ -54,7 +54,7 @@ $header_classes = '';
 					<div class="col-md-2">
 
 						<div class="korra-logo">
-							<a href="<?php echo  esc_url( home_url('/') ) ; ?>">
+							<a href="/">
 								<?php if( !$theme_settings['logo'] ): ?>
 									<span class="sitename h2"><?php echo bloginfo('name'); ?></span>
 								<?php else: ?>
