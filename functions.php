@@ -12,8 +12,8 @@ function korra_child_load_styles() {
 	wp_enqueue_style( 'korra_child_bootstrap_style', get_theme_file_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_script('bootstrap_js', get_theme_file_uri() . '/js/bootstrap.min.js');
 
-	//load js for scrolling animation nav bar
-	wp_enqueue_script('scrolling_nav_animation', get_theme_file_uri() . '/js/scroll.nav.animation.js');
+	//load js for custom functions
+	wp_enqueue_script('custom_functions', get_theme_file_uri() . '/js/custom.functions.js');
 }
 
 /*------------------------------------------------------------
@@ -43,5 +43,5 @@ function whyte_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-//
+
 add_action( 'widgets_init', 'whyte_widgets_init' );

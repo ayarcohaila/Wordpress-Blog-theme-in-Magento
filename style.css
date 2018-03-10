@@ -7,6 +7,7 @@
 	Author: korra.io
 	Author URI: http://korra.io/
 	Text Domain: whyte
+  Customized by: Keith B
 */
 
 
@@ -32,6 +33,20 @@
     url("fonts/lineto-brown-bold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+  font-family: "BrownStd-Regular";
+  src: url("fonts/BrownStd-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrownStd-Bold";
+  src: url("fonts/BrownStd-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* header */
@@ -60,6 +75,14 @@
   padding-bottom: 20px;
 }
 
+
+.header__menu ~ .header__menu__sticky-bg {
+  z-index: auto;
+}
+
+.header__menu--sticked {
+  position: relative;
+}
 
 @media only screen and (min-width: 768px) {
   .header.sticky {
@@ -129,6 +152,10 @@
     left: 0;
     right: 0;
   }
+}
+
+.post__share {
+  padding-top: 20px !important;
 }
 
 .korra-logo a {
@@ -232,12 +259,15 @@
 .loop-container--style-masonry_image article .post__inwrap .post__excerpt--wrapper .excerpt {
   overflow: hidden;
   position: relative;
-  line-height: 1.2em;
-  max-height: 4.8em;
+  line-height: 18px;
+  max-height: 72px;
+  font-family: Georgia;
+  font-size: 12px;
   text-align: justify;
   margin-right: -1em;
   padding-right: 1em;
-  color: black;
+
+  color: #303030;
 }
 
 .loop-container--style-masonry_image article .post__inwrap .post__excerpt--wrapper .excerpt:before {
@@ -255,6 +285,15 @@
   height: 1em;
   margin-top: 0.2em;
   background: white;
+}
+
+.meta--date {
+  color: #707070;
+  font-family: Georgia;
+  font-size: 12px;
+  line-height: 18px;
+  padding-bottom: 5px;
+  text-transform: lowercase;
 }
 
 /* Sidebar */
@@ -277,8 +316,15 @@
 }
 
 #categories-3 ul {
-  line-height: 2;
-  margin-top: 20px;
+  margin: auto;
+  padding-top: 20px;
+	height: 228px;
+  width: 170px;
+  color: #303030;
+  font-family: Georgia;
+  font-size: 13px;
+  line-height: 28px;
+  text-align: center;
 }
 
 #categories-3 ul li a {
@@ -299,35 +345,66 @@
 
 #secondary {
   width: 221px;
+  margin-top: 30px;
 }
 
 #categories-3 {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 #categories-3 .widget-title {
-  font-size: 30px;
+  margin: auto;
+  padding: 0;
+	height: 80px;
+  width: 158px;
+  color: #303030;
+  font-family: "BrownStd-Bold";
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: lowercase;
 }
 
 #search-3 {
   padding-left: 0px;
   padding-right: 0px;
+  margin: 0;
 }
 
 #search-3 .widget-title {
-  margin-top: 80px;
-  font-size: 20px;
-  color: #000;
+  margin: 0;
+  height: 46px;
+  width: 221px;
+  color: #303030;
+  font-family: "BrownStd-Bold";
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: lowercase;
 }
 
 #search-3 .search-form .textfield {
-  background: white;
-  border: 1px solid #000;
+	height: 46px;
+  width: 221px;
+  border: 1px solid #303030;
+  background-color: white;
 }
 
 #search-3 .search-form i {
   font-size: 14pt !important;
+}
+
+.textfield::-webkit-input-placeholder{
+  color: transparent;
+}
+
+.label--small {
+  font-size: 8px;
+  font-family: "BrownStd-Bold";
+  text-transform: uppercase !important;
 }
 
 .cat-item a {
@@ -382,15 +459,20 @@
 /* korra separator */
 
 .korra-separator {
-  background: #000;
+  background: #303030;
 }
 
 /* load more button */
 
 .korra-blog__more .label {
   text-transform: uppercase;
-  color: #000;
   text-decoration: none;
+  height: 37px;
+  color: #303030;
+  font-family: "BrownStd-Bold";
+  font-size: 12px;
+  line-height: 36px;
+  text-align: center;
 }
 
 /* footer */
@@ -748,11 +830,17 @@ input[type="email"]::-webkit-input-placeholder {
 
 .post__title {
   margin-bottom: 50px;
+  padding: 0 !important;
   font-family: "Brown-Bold";
+  color: #303030 !important;
+  font-family: "BrownStd-Bold";
+  font-size: 25px;
+  line-height: 36px;
 }
 
+
 .post__title a {
-  color: black !important;
+  color: #303030 !important;
 }
 
 .korra-cover .korra-fullwidth {
@@ -772,4 +860,30 @@ input[type="email"]::-webkit-input-placeholder {
 
 .dark-mode a {
   text-decoration: none !important;
+}
+
+
+.post__meta .post__meta__data {
+  color: #444444;
+  padding-top: 10px;
+}
+
+.post__title.post__title__not_mobile {
+ display: none;
+ margin-bottom: 32px;
+}
+
+.post__content {
+  font-family: Georgia;
+}
+
+.social-nav .item i {
+  background: transparent;
+  color: black;
+}
+
+.social-nav .item i:hover {
+  background: transparent;
+  color: black;
+  box-shadow: none;
 }
