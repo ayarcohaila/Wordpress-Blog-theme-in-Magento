@@ -15,6 +15,7 @@
 
 <div class="main-content">
 
+
 <article id="post-<?php the_ID(); ?>" <?php post_class( $post_classes ); ?> role="main" data-title="<?php echo esc_attr( get_the_title() ); ?>">
 
 	<div class="post__content">
