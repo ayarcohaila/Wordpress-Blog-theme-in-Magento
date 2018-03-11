@@ -887,3 +887,7 @@ input[type="email"]::-webkit-input-placeholder {
   color: black;
   box-shadow: none;
 }
+
+.widget-title:hover {
+  cursor: pointer;
+}
