@@ -8,14 +8,3 @@ $(window).scroll(function() {
     $('#header').removeClass('sticky');
   }
 });
-
-
-// add link to sidebar title
-
-
-$(function() {
-  $(".widget-title").css('cursor', 'pointer');
-  $(".widget-title").click(function() {
-    window.location = "/";
-  });
-});
