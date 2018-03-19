@@ -39,7 +39,7 @@ function whyte_widgets_init() {
 		'description'   => __( 'Add widgets here to appear in your sidebar.', 'whyte' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title"><a href="/">',
+		'before_title'  => '<h2 class="widget-title"><a href="/blog">',
 		'after_title'   => '</a></h2>',
 	) );
 }

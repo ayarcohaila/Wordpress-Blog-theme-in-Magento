@@ -349,7 +349,7 @@
 
 #secondary {
   width: 221px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #categories-3 {
@@ -424,11 +424,23 @@
   border: none;
 }
 
+.korra-cover--empty .max-width-wrapper .post__category {
+  margin-top: 100px !important;
+}
+
+.post__title__not_mobile {
+  font-family: "BrownStd-Bold" !important;
+}
+
 /* footer instagram */
 
 .footer-instagram {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin-top: 100px !important;
+}
+
+.widget__title.description-heading {
+  display: none;
 }
 
 #media_gallery-5 {
@@ -873,7 +885,7 @@ input[type="email"]::-webkit-input-placeholder {
 }
 
 .post__title.post__title__not_mobile {
- display: none;
+ /* display: none; */
  margin-bottom: 32px;
 }
 
@@ -923,4 +935,24 @@ input[type="email"]::-webkit-input-placeholder {
   font-size: 12px;
   line-height: 36px;
   text-align: center;
+}
+
+#content-wrapper-inside .korra-cover {
+  margin-bottom: 0 !important;
+}
+
+.sub_categories .korra-blog .loop-container {
+  margin-top: 0 !important;
+}
+
+@media only screen and (min-width: 800px) {
+  .sub_categories .sidebar {
+    margin-top: -35px !important;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .korra-cover .korra-fullwidth {
+    margin-top: 0;
+  }
 }
